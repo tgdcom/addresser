@@ -15,6 +15,7 @@ declare module "addresser" {
 		streetSuffix: string;
 		streetName: string;
 		id: string;
+		formattedAddress: string;
 	}
 
 	export interface IStateCities {
